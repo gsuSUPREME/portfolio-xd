@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://gsusupreme.github.io/portfolio-xd',
+  title: '',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
+  name: 'Jesus Polanco',
   role: 'Front End Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    '"I wish i was dead tomorrow"',
+  resume: '',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    facebook: 'https://facebook.com/J1SUS2013',
+    github: 'https://github.com/gsuSUPREME',
   },
 }
 
@@ -21,28 +21,60 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Windhand',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Mauqetación de página web responsive a partir de diseño',
+    stack: ['CSS', 'React'],
+    sourceCode: 'https://github.com/gsuSUPREME/Winhand-vite',
+    livePreview: 'https://gsusupreme.github.io/Winhand-vite',
   },
   {
-    name: 'Project 2',
+    name: 'Xd-Store',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'E-Commerce de prueba',
+    stack: ['Tailwindcss', 'NextJS', 'React'],
+    sourceCode: 'https://github.com/gsuSUPREME/xd-store',
+    livePreview: 'https://xd-store.vercel.app/',
   },
   {
-    name: 'Project 3',
+    name: 'Landing page',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Landing page creada para prueba',
+    stack: ['CSS', 'HTML'],
+    sourceCode: 'https://github.com/gsuSUPREME/fuck',
+    livePreview: 'https://gsusupreme.github.io/fuck/',
+  },
+  {
+    name: 'Notes App',
+    description:
+      'WebApp de notasw FullStack sin estilos',
+    stack: ['React', 'Express', 'NodeJS', 'MongoDB'],
+    sourceCode: 'https://github.com/gsuSUPREME/Notes-XD',
+    livePreview: 'https://gsusupreme.github.io/Notes-XD/',
+  },
+  {
+    name: 'componente tarjeta de visualizacion de estados',
+    description:
+      'Componente de tarjeta responsive',
+    stack: ['CSS', 'HTML', 'Typescript', 'React'],
+    sourceCode: 'https://github.com/gsuSUPREME/stats-preview-card-component/',
+    livePreview: 'https://stats-preview-card-01.herokuapp.com/',
+  },
+  {
+    name: 'Sumario de ordenes',
+    description:
+      'Componente de Sumario de ordenes responsive',
+    stack: ['CSS', 'HTML', 'Typescript', 'React'],
+    sourceCode: 'https://github.com/gsuSUPREME/Order-summary',
+    livePreview: 'https://order-summary1415.netlify.app/',
+  },
+  {
+    name: 'Calculadora de MRU',
+    description:
+      'WebApp calculadora sin estilos que resuelve problemas de mru poniendo los datos',
+    stack: ['CSS', 'HTML', 'Typescript', 'React'],
+    sourceCode: 'https://github.com/gsuSUPREME/Calculadora-MRU',
+    livePreview: 'https://gsusupreme.github.io/Calculadora-MRU',
   },
 ]
 
@@ -54,18 +86,14 @@ const skills = [
   'JavaScript',
   'TypeScript',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Flutter',
+  'Dart'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'jesusmanuelpolancogarcia51@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
